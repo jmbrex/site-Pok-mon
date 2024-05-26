@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/pokemonSearch.css">
+    <link rel="stylesheet" href="css/cardPokemon.css">
+    <script type="module" src="js/script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="image/800px-Pokémon_logo_English.png" id="siteTitle">
+        <br>
+        <hr>
+    </header>
+    <section id="site">
+        <table id="tablePokemon">
+            <thead>
+                <tr class="coluns">
+                    <th class="colunsTitle">Name</th>
+                    <th class="colunsTitle">pokedex</th>
+                    <th class="colunsTitle">hp</th>
+                    <th class="colunsTitle">attack</th>
+                    <th class="colunsTitle">defense</th>
+                    <th class="colunsTitle">speed</th>
+                </tr>
+            </thead>
+            <tbody class="tableBody">
+                <tr class="rowTablePokemon">
+                    <td class="rowTablePokemonInfo">teste</td>
+                    <td class="rowTablePokemonInfo">1</td>
+                    <td class="rowTablePokemonInfo">2</td>
+                    <td class="rowTablePokemonInfo">3</td>
+                    <td class="rowTablePokemonInfo">4</td>
+                    <td class="rowTablePokemonInfo">5</td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="Pokemon">
+            <div id="searchPokemon">
+                <input type="number" id="searchPokemonNumber" placeholder="Pokémon ID" min="0">
+                <button type="button" id="searchPokemonButton">Search</button>
+            </div>
+            <div id="searchPokemonResult">
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+</html>

@@ -1,0 +1,31 @@
+#Pokemon{
+    background-color:rgb(0, 129, 112);
+    background-color:rgb(165, 201, 202);
+    margin-top: 2%;
+    padding: 1%;
+    min-height: 70%
+}
+
+#searchPokemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+#searchPokemonNumber{
+    border-radius: 10px;
+    height: 40px;
+}
+
+#searchPokemonButton{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 42px;
+}
+
+#searchPokemonResult{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
