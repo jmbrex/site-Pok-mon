@@ -42,3 +42,15 @@ hr{
     margin-right: auto;
     
 }
+
+#navResult{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.NavButton{
+    width: 5%;
+    height: 10%;
+    margin-right: 1%;
+    font-size: 20px;
+}

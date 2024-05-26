@@ -18,7 +18,7 @@ export function pokemonIdAPI(id){
     });
   }
 
-export function pokemonAPI(){
+export function AllpokemonAPI(){
     return new Promise((resolve, reject) => {
       fetch(`https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0`)
         .then(response => {

@@ -1,3 +1,6 @@
+import { addPokemonTableRow } from "./table.js";
+const tableBody = document.querySelector(".tableBody")
+
 const colours = {
 	normal: '#A8A77A',
 	fire: '#EE8130',
@@ -49,5 +52,8 @@ export function createCardPokemon(Data){
     Card.appendChild(backImage)
     Card.appendChild(CardButton)
 
+	Card.addEventListener("click",()=>{
+		addPokemonTableRow(Data)
+	})
 	return Card
 }
